@@ -11,13 +11,13 @@ let path = {
   src: {
     html: source_folder + "/*.html",
     css: source_folder + "/scss/style.scss",
-    img: source_folder + "/images/**/*.{jpg, png, svg, gif, ico, webp}",
-    fonts: source_folder + "/fonts/*.ttf",
+    img: source_folder + "/images/**/*.+(svg|jpg|png|gif|ico|webp)",
+    fonts: source_folder + "/fonts/*.+(ttf|woff)",
   },
   watch: {
     html: source_folder + "/**/*.html",
     css: source_folder + "/scss/**/*.scss",
-    img: source_folder + "/images/**/*.{jpg, png, svg, gif, ico, webp}",
+    img: source_folder + "/images/**/*.+(svg|jpg|png|gif|ico|webp)",
   },
   clean: "./" + project_folder + "/",
 };
@@ -30,6 +30,7 @@ let { src, dest } = require("gulp"),
   autoprefixer = require("gulp-autoprefixer"),
   group_media = require("gulp-group-css-media-queries"),
   rename = require("gulp-rename"),
+  imagemin = require("gulp-imagemin"),
   browsersync = require("browser-sync").create();
 
 function browserSync(params) {
@@ -45,6 +46,20 @@ function browserSync(params) {
 function html() {
   return src(path.src.html)
     .pipe(dest(path.build.html))
+    .pipe(browsersync.stream());
+}
+
+function images() {
+  return src(path.src.img)
+    .pipe(
+      imagemin({
+        progressive: true,
+        svgoPlugins: [{ removeViewBox: false }],
+        interlaced: true,
+        optimizationLevel: 3,
+      })
+    )
+    .pipe(dest(path.build.img))
     .pipe(browsersync.stream());
 }
 
@@ -73,18 +88,25 @@ function css() {
     .pipe(browsersync.stream());
 }
 
+function fonts(params) {
+  return src(path.src.fonts).pipe(dest(path.build.fonts));
+}
+
 function watchFiles(params) {
   gulp.watch([path.watch.html], html);
   gulp.watch([path.watch.css], css);
+  gulp.watch([path.watch.img], images);
 }
 
 function clear(params) {
   return del(path.clean);
 }
 
-let build = gulp.series(clear, gulp.parallel(css, html));
+let build = gulp.series(clear, gulp.parallel(css, html, images, fonts));
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
+exports.fonts = fonts;
+exports.images = images;
 exports.css = css;
 exports.html = html;
 exports.build = build;
