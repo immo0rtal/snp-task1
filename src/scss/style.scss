@@ -2137,6 +2137,9 @@ img {
                   .nav__li:last-child {
                     display: none;
                   }
+                  .nav__li {
+                    padding: 0;
+                  }
                 }
               }
             }

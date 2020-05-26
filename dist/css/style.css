@@ -1959,6 +1959,10 @@ img {
     display: none;
   }
 
+  .wrapper .content .header .header__menu .header__row .row__column:first-child .column__nav .nav__ul .nav__li {
+    padding: 0;
+  }
+
   .wrapper .content .header .header__title {
     height: auto;
   }
