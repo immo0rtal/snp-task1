@@ -387,7 +387,7 @@ img {
             .main-news__item {
               width: 789px;
               height: 492px;
-              background-image: url("..dist/images/Article1.png");
+              background-image: url("/dist/images/Article1.png");
               position: relative;
 
               .main-news__item__inside {
@@ -516,7 +516,7 @@ img {
                 transition: 0.5s;
                 width: 517px;
                 height: 492px;
-                background-image: url("..dist/images/Article2.png");
+                background-image: url("/dist/images/Article2.png");
                 position: relative;
 
                 .main-news__item__inside {
@@ -641,7 +641,7 @@ img {
                 width: 247px;
                 height: 492px;
                 margin-left: 25px;
-                background: border-box url("..dist/images/Article3.png") no-repeat;
+                background: border-box url("/dist/images/Article3.png") no-repeat;
                 background-size: 100% 100%;
 
                 .main-news__item__inside {
@@ -867,13 +867,13 @@ img {
                     margin-left: 20px;
                   }
                   .one {
-                    background: url(..dist/images/SideArticle1.png) no-repeat;
+                    background: url(/dist/images/SideArticle1.png) no-repeat;
                   }
                   .two {
-                    background: url(..dist/images/SideArticle2.png) no-repeat;
+                    background: url(/dist/images/SideArticle2.png) no-repeat;
                   }
                   .three {
-                    background: url(..dist/images/SideArticle3.png) no-repeat;
+                    background: url(/dist/images/SideArticle3.png) no-repeat;
                   }
                 }
               }
@@ -1316,7 +1316,7 @@ img {
 
                 .inside__content {
                   margin-top: 17px;
-                  background-image: url(dist/images/HTMLandCSSPicture.png);
+                  background-image: url(/dist/images/HTMLandCSSPicture.png);
                   height: 238px;
                   position: relative;
 
@@ -1451,7 +1451,7 @@ img {
                 }
 
                 .inside__content {
-                  background-image: url(dist/images/HtmlIcon.png);
+                  background-image: url(/dist/images/HtmlIcon.png);
                   margin-top: 24px;
                   height: 146px;
                   position: relative;
