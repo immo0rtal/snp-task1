@@ -1204,7 +1204,7 @@ img {
                       content: "";
                       position: absolute;
                       top: 15px;
-                      right: 209px;
+                      left: -4px;
                       width: 10px;
                       height: 10px;
                       background-color: #828282;
@@ -1215,7 +1215,7 @@ img {
                       content: "";
                       position: absolute;
                       top: 59px;
-                      right: 209px;
+                      left: -4px;
                       width: 10px;
                       height: 10px;
                       background-color: #828282;
@@ -1226,7 +1226,7 @@ img {
                       content: "";
                       position: absolute;
                       top: 165px;
-                      right: 209px;
+                      left: -4px;
                       width: 10px;
                       height: 10px;
                       background-color: #828282;
@@ -1933,15 +1933,6 @@ img {
                       display: block;
                     }
                   }
-                  .inside__header {
-                    .header__link:hover {
-                      text-decoration: underline;
-                    }
-                  }
-                }
-              }
-              .news-bar__item-small__two {
-                .item-small__two {
                   .inside__header {
                     .header__link:hover {
                       text-decoration: underline;
