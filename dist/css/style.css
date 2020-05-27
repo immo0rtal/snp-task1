@@ -1228,12 +1228,12 @@ img {
   background: #faaf3f;
   border-radius: 2px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-large .item-large__inside .inside__button button {
-  margin-top: 3px;
   width: 212.52px;
-  height: 20px;
   font-family: "brutal";
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -1364,12 +1364,12 @@ img {
   background: #faaf3f;
   border-radius: 2px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-medium .item-medium__inside .inside__button button {
-  margin-top: 3px;
   width: 212.52px;
-  height: 20px;
   font-family: "brutal";
   font-size: 14px;
   letter-spacing: 0.02em;
