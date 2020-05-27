@@ -1116,7 +1116,6 @@ img {
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-large .item-large__inside .inside__header .header__link {
   color: #0776d2;
   text-decoration: none;
-  width: 61px;
   height: 24px;
   font-family: "ptsans";
   font-style: normal;
@@ -1230,12 +1229,12 @@ img {
   background: #faaf3f;
   border-radius: 2px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-large .item-large__inside .inside__button button {
-  margin-top: 3px;
   width: 212.52px;
-  height: 20px;
   font-family: "brutal";
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -1283,7 +1282,6 @@ img {
   color: #0776d2;
   text-decoration: none;
   width: 61px;
-  height: 24px;
   font-family: "ptsans";
   font-style: normal;
   font-weight: normal;
@@ -1368,12 +1366,12 @@ img {
   background: #faaf3f;
   border-radius: 2px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-medium .item-medium__inside .inside__button button {
-  margin-top: 3px;
   width: 212.52px;
-  height: 20px;
   font-family: "brutal";
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -1420,7 +1418,6 @@ img {
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-small__one .item-small__one .inside__header .header__link {
   color: #0776d2;
   text-decoration: none;
-  height: 24px;
   font-family: "ptsans";
   font-style: normal;
   font-weight: normal;
@@ -1526,7 +1523,6 @@ img {
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-small__two .item-small__two .inside__header .header__link {
   color: #0776d2;
   text-decoration: none;
-  height: 24px;
   font-family: "ptsans";
   font-style: normal;
   font-weight: normal;
