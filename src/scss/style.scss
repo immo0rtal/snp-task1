@@ -1127,7 +1127,6 @@ img {
                   .header__link {
                     color: #0776d2;
                     text-decoration: none;
-                    height: 24px;
                     font-family: "ptsans";
                     font-style: normal;
                     font-weight: normal;
@@ -1299,7 +1298,6 @@ img {
                   .header__link {
                     color: #0776d2;
                     text-decoration: none;
-                    height: 24px;
                     font-family: "ptsans";
                     font-style: normal;
                     font-weight: normal;
@@ -1433,7 +1431,6 @@ img {
                   .header__link {
                     color: #0776d2;
                     text-decoration: none;
-                    height: 24px;
                     font-family: "ptsans";
                     font-style: normal;
                     font-weight: normal;
@@ -1537,7 +1534,6 @@ img {
                   .header__link {
                     color: #0776d2;
                     text-decoration: none;
-                    height: 24px;
                     font-family: "ptsans";
                     font-style: normal;
                     font-weight: normal;
@@ -1933,6 +1929,15 @@ img {
                       display: block;
                     }
                   }
+                  .inside__header {
+                    .header__link:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+              .news-bar__item-small__two {
+                .item-small__two {
                   .inside__header {
                     .header__link:hover {
                       text-decoration: underline;
