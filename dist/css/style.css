@@ -386,7 +386,7 @@ img {
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__main-news .main-news__item {
   width: 789px;
   height: 492px;
-  background-image: url("dist/images/Article1.png");
+  background-image: url("../images/Article1.png");
   position: relative;
 }
 
@@ -517,7 +517,7 @@ img {
   transition: 0.5s;
   width: 517px;
   height: 492px;
-  background-image: url("dist/images/Article2.png");
+  background-image: url("../images/Article2.png");
   position: relative;
 }
 
@@ -640,7 +640,7 @@ img {
   width: 247px;
   height: 492px;
   margin-left: 25px;
-  background: border-box url("dist/images/Article3.png") no-repeat;
+  background: border-box url("../images/Article3.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -868,15 +868,15 @@ img {
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__main-news .news-bar__featured-news .featured-news__side-articles .side-articles__items .one {
-  background: url(dist/images/SideArticle1.png) no-repeat;
+  background: url(../images/SideArticle1.png) no-repeat;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__main-news .news-bar__featured-news .featured-news__side-articles .side-articles__items .two {
-  background: url(dist/images/SideArticle2.png) no-repeat;
+  background: url(../images/SideArticle2.png) no-repeat;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__main-news .news-bar__featured-news .featured-news__side-articles .side-articles__items .three {
-  background: url(dist/images/SideArticle3.png) no-repeat;
+  background: url(../images/SideArticle3.png) no-repeat;
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__main-news .main-content__series {
@@ -1295,7 +1295,7 @@ img {
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-medium .item-medium__inside .inside__content {
   margin-top: 17px;
-  background-image: url(dist/images/HTMLandCSSPicture.png);
+  background-image: url(../images/HTMLandCSSPicture.png);
   height: 238px;
   position: relative;
 }
@@ -1431,7 +1431,7 @@ img {
 }
 
 .wrapper .content .main-content .main-content__wrapper .main-content__articles .articles__news-bar .news-bar__item-small__one .item-small__one .inside__content {
-  background-image: url(dist/images/HtmlIcon.png);
+  background-image: url(../images/HtmlIcon.png);
   margin-top: 24px;
   height: 146px;
   position: relative;
