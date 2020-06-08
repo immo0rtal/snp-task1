@@ -759,7 +759,7 @@ img {
 
                     .nav__item {
                       font-family: "ptsans";
-                      font-weight: bold;
+                      font-weight: bolder;
                       color: black;
                       cursor: pointer;
                       text-decoration: none;
@@ -1075,7 +1075,7 @@ img {
             font-weight: normal;
             font-size: 17px;
             line-height: 24px;
-            color: #333333;
+            color: #000;
           }
 
           .articles__news-bar {
@@ -2072,6 +2072,9 @@ img {
 
                   .main-news__item__inside {
                     padding: 114px 15px 26px 15px;
+                    background: url(../images/3Article.png);
+                    background-size: cover;
+                    background-position: center;
 
                     .inside__side-items {
                       margin-top: 40px;
@@ -2271,6 +2274,7 @@ img {
                 .side-items__medium {
                   .main-news__item__inside {
                     background: url("../images/3Article.png");
+                    background-size: 100%;
                   }
                 }
               }
