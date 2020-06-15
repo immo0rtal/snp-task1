@@ -37,7 +37,7 @@ body {
     justify-content: space-between;
   }
 
-  @include media-non-desktop {
+  @include media-tablet {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -80,7 +80,7 @@ body {
     left: 16px;
     top: 16px;
 
-    @include media-non-desktop {
+    @include media-tablet {
       visibility: visible;
     }
   }
@@ -89,7 +89,7 @@ body {
     width: 370px;
     height: 80px;
 
-    @include media-non-desktop {
+    @include media-tablet {
       margin: 0 auto;
     }
 
@@ -117,7 +117,7 @@ body {
       margin-top: -14px;
     }
 
-    @include media-non-desktop {
+    @include media-tablet {
       display: none;
     }
   }
@@ -161,7 +161,7 @@ body {
     align-items: center;
     right: 47px;
 
-    @include media-non-desktop {
+    @include media-tablet {
       .header-menu__search {
         display: none;
       }
@@ -178,7 +178,7 @@ body {
       align-items: center;
       margin-left: 47px;
 
-      @include media-non-desktop {
+      @include media-tablet {
         .header-menu__icon {
           display: none;
         }
@@ -187,7 +187,7 @@ body {
       .header-menu__nav {
         margin-left: 28px;
 
-        @include media-non-desktop {
+        @include media-tablet {
           width: 100%;
           margin-left: 19px;
           margin-right: 19px;
@@ -211,7 +211,7 @@ body {
             }
           }
 
-          @include media-non-desktop {
+          @include media-tablet {
             justify-content: space-between;
 
             .header-menu__item:last-child {
@@ -277,7 +277,8 @@ body {
     width: 100%;
   }
 
-  @include media-non-desktop {
+  @include media-tablet {
+    padding: 30px 0px 0px;
     width: 100%;
   }
 
@@ -304,7 +305,7 @@ body {
       margin-left: 11px;
     }
 
-    @include media-non-desktop {
+    @include media-tablet {
       margin-left: 15px;
     }
   }
@@ -329,7 +330,7 @@ body {
       }
     }
 
-    @include media-non-desktop {
+    @include media-tablet {
       .articles__main-news {
         width: 100%;
 
@@ -365,7 +366,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 
-    @include media-non-desktop {
+    @include media-tablet {
       padding: 72px 20px 15px 20px;
     }
 
@@ -482,7 +483,7 @@ body {
 
   @include media-desktop-hover {
     &:hover {
-      .main-news__item__inside .hidden {
+      .article__inside .hidden {
         opacity: 100%;
       }
     }
@@ -496,7 +497,7 @@ body {
       width: auto;
     }
 
-    @include media-non-desktop {
+    @include media-tablet {
       width: 100%;
       height: 386px;
       background-size: 100%;
@@ -519,7 +520,7 @@ body {
       }
 
       .inside__text-description {
-        @include media-non-desktop {
+        @include media-tablet {
           display: none;
         }
 
@@ -532,7 +533,7 @@ body {
         justify-content: space-between;
         align-items: center;
 
-        @include media-non-desktop {
+        @include media-tablet {
           margin-top: 98px;
           display: block;
         }
@@ -543,7 +544,7 @@ body {
         }
 
         .inside__side-items__text {
-          @include media-non-desktop {
+          @include media-tablet {
             margin-bottom: 8px;
           }
         }
@@ -572,9 +573,6 @@ body {
 
     @include media-tablet {
       background: url("../images/2Article.png");
-    }
-
-    @include media-non-desktop {
       width: 100%;
       height: 386px;
       background-size: cover;
@@ -585,7 +583,7 @@ body {
       padding: 85px 67px 30px 20px;
       width: 100%;
 
-      @include media-non-desktop {
+      @include media-tablet {
         .inside__text-description {
           display: none;
         }
@@ -603,13 +601,13 @@ body {
           visibility: hidden;
         }
 
-        @include media-non-desktop {
+        @include media-tablet {
           display: none;
         }
       }
 
       .inside__side-items {
-        @include media-non-desktop {
+        @include media-tablet {
           margin-top: 95px;
         }
 
@@ -635,19 +633,15 @@ body {
     @include media-tablet {
       background: url("../images/3Article.png");
       background-size: 100%;
-    }
-
-    @include media-pre-tablet-2 {
-      width: 50%;
-    }
-
-    @include media-non-desktop {
       width: 100%;
       height: 386px;
       margin-left: 0px;
       margin-top: 25px;
     }
 
+    @include media-pre-tablet-2 {
+      width: 50%;
+    }
     .article__inside {
       padding: 85px 67px 30px 20px;
       width: 100%;
@@ -658,7 +652,7 @@ body {
         background-position: center;
       }
 
-      @include media-non-desktop {
+      @include media-tablet {
         .inside__text-description {
           display: none;
         }
@@ -668,7 +662,7 @@ body {
         width: 217px;
         height: 220px;
 
-        @include media-non-desktop {
+        @include media-tablet {
           height: 100px;
           width: 100%;
         }
@@ -692,7 +686,7 @@ body {
   display: flex;
   justify-content: space-between;
 
-  @include media-non-desktop {
+  @include media-tablet {
     display: block;
   }
 }
@@ -748,7 +742,7 @@ body {
   }
 
   .menu__arrows {
-    @include media-non-desktop {
+    @include media-tablet {
       display: none;
     }
 
@@ -865,7 +859,7 @@ body {
   margin-bottom: 30px;
   margin-top: 30px;
 
-  @include media-non-desktop {
+  @include media-tablet {
     overflow: hidden;
   }
 
@@ -878,7 +872,7 @@ body {
     display: flex;
     justify-content: space-between;
 
-    @include media-non-desktop {
+    @include media-tablet {
       min-width: max-content;
     }
   }
@@ -889,7 +883,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  @include media-non-desktop {
+  @include media-tablet {
     margin-left: 15px;
   }
 
@@ -910,7 +904,7 @@ body {
   }
 
   .substracts {
-    @include media-non-desktop {
+    @include media-tablet {
       display: none;
     }
 
@@ -946,7 +940,7 @@ body {
     width: 350px;
   }
 
-  @include media-non-desktop {
+  @include media-tablet {
     width: 325px;
     margin-bottom: 42px;
 
@@ -964,7 +958,7 @@ body {
   .inside__header {
     display: none;
 
-    @include media-non-desktop {
+    @include media-tablet {
       & {
         .header__link {
           height: auto;
@@ -1011,7 +1005,7 @@ body {
       }
     }
 
-    @include media-non-desktop {
+    @include media-tablet {
       width: 100%;
     }
 
@@ -1030,7 +1024,7 @@ body {
 .articles__news-bar {
   margin-left: 20px;
 
-  @include media-non-desktop {
+  @include media-tablet {
     display: none;
   }
 }
